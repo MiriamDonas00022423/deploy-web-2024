@@ -251,6 +251,7 @@ img {
   height: 650px;
   padding-top: 7rem;
   overflow: hidden;
+  min-height: 100vh;
 
 
 }
@@ -1281,5 +1282,24 @@ img {
     letter-spacing: 0.9rem;
   }
 
+  .village {
+    width: 20vw;
+  }
+
+  .pine {
+    width: 18vw;
+  }
+
+  .mountain1,
+  .mountain2,
+  .mountain3 {
+    width: 100%;
+  }
+
+  .home__moon {
+    width: 25vw;
+
+
+  }
 
 }
