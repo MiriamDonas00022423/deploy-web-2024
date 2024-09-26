@@ -1306,25 +1306,28 @@ img {
 }
 
 @media screen and (min-width: 1366px) {
-
   .home__title {
     font-size: 5vw; 
-    margin-top: 2rem;
+    margin-top: 2rem; 
   }
 
   .home img {
-    width: 50vw; 
+    width: 50vw;
+    height: auto; 
   }
 
   .village {
     width: 20vw; 
+    bottom: 1rem; 
   }
 
   .pine {
     width: 18vw; 
+    bottom: 2rem; 
   }
 
   .home__moon {
     width: 25vw; 
+    bottom: 19rem; 
   }
 }
