@@ -280,6 +280,7 @@ img {
 
 .home img {
   position: absolute;
+  max-width: 100%;
 
 }
 
@@ -1302,4 +1303,28 @@ img {
 
   }
 
+}
+
+@media screen and (min-width: 1366px) {
+
+  .home__title {
+    font-size: 5vw; 
+    margin-top: 2rem;
+  }
+
+  .home img {
+    width: 50vw; 
+  }
+
+  .village {
+    width: 20vw; 
+  }
+
+  .pine {
+    width: 18vw; 
+  }
+
+  .home__moon {
+    width: 25vw; 
+  }
 }
